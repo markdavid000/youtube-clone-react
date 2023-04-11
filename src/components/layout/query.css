@@ -1,0 +1,156 @@
+@media (max-width: 1212px) {
+  .side_bar {
+    width: 60px;
+    overflow-x: hidden;
+  }
+
+  .style {
+    display: none;
+  }
+
+  .footer_link_style {
+    display: none;
+  }
+
+  .footer_text_style {
+    display: none;
+  }
+
+  .sec_heading {
+    display: none;
+  }
+
+  .body_content_two_links {
+    width: calc(100% - 80px);
+    left: 75px;
+  }
+
+  .video_body {
+    width: calc(100vw - 30px);
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 975px) {
+  .video_body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 752px) {
+  .video_body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 690px) {
+  .search_bar {
+    display: none;
+  }
+
+  .search_bar_btn {
+    padding: 10px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+  }
+
+  .search_bar_btn:hover {
+    background: #6d6d6d49;
+  }
+
+  .search_bar_btn_icon {
+    font-size: 1.2rem;
+  }
+
+  .voice_search_btn {
+    margin-left: 0;
+    padding: 10px;
+    border-radius: 0;
+  }
+
+  .__grid-three {
+    gap: 0;
+  }
+
+  .notification_btn {
+    padding: 10px;
+  }
+
+  .create_video_btn {
+    padding: 10px;
+  }
+
+  .user_menu_btn {
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 531px) {
+  .video_body {
+    grid-template-columns: 1fr;
+    padding: 20px 80px 20px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .youtube_logo {
+    width: 110px;
+  }
+
+  .grid {
+    justify-content: baseline;
+  }
+
+  .voice_search_btn_icon {
+    width: 15px;
+  }
+
+  .notification_btn_icon {
+    width: 15px;
+  }
+
+  .create_video_btn_icon {
+    width: 15px;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .footer_link_style {
+    display: inline;
+  }
+
+  .footer_text_style {
+    display: inline;
+  }
+
+  .sec_heading {
+    display: block;
+  }
+
+  .style {
+    display: block;
+  }
+
+  .side_bar {
+    display: none;
+    width: 220px;
+    overflow-x: hidden;
+  }
+
+  .show_sidebar {
+    display: flex;
+  }
+
+  .video_body {
+    width: calc(100vw - 30px);
+    margin-left: 35px;
+  }
+
+  .body_content_two_links {
+    width: calc(100% - 20px);
+    left: 10px;
+  }
+}
