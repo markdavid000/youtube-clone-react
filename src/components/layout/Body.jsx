@@ -41,12 +41,22 @@ import YoutubeWhite from './img/YouTube-White-Full-Color-Logo.wine.png';
 import YoutubePng from './img/youtube.png';
 
 const Body = () => {
+  const onClick = () => {
+    const menu = () => {
+      document.querySelector('#menu');
+    };
+
+    const sidebar = document.querySelector('.side_bar');
+
+    menu(sidebar.classList.toggle('show_sidebar'));
+  };
+
   return (
     <body className='body'>
       <nav>
         <div className='grid'>
           <div className='__grid-one'>
-            <button className='menu_bar_link'>
+            <button className='menu_bar_link' onClick={onClick}>
               <img
                 id='menu'
                 src={Menu}
